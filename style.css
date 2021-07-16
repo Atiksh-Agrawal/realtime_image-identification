@@ -1,0 +1,72 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 40px;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    float: none;
+    padding: 12px;
+    font-size: 22px ;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+
+  .result_para_tag span{
+    white-space: pre-line;
+  }
+
+  .copy_right_footer{
+    bottom: 0;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    line-height:3;
+    color: seashell;
+    font-size: 16px;
+    text-align: center;
+  }
+ 
+  canvas{
+    border: solid 5px black;
+    border-radius: 20px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: shadow-effect;
+    margin-top: 150px;
+  }
+
+  @keyframes shadow-effect{
+    0%{
+      box-shadow: 5px 5px 20px red;
+    }
+
+    25%{
+      box-shadow:5px 5px 20px yellow;
+    }
+
+    50%{
+      box-shadow:5px 5px 20px green;
+    }
+
+    75%{
+      box-shadow:5px 5px 20px skyblue;
+    }
+
+    100%{
+      box-shadow: violet;
+    }
+  }
